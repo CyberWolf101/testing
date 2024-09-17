@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Tilt+Prism&display=swap');
+:root {
+    --primary: #000427;
+    --secondary: #060b26;
+    --mintBtn: #212e48;
+    --startBtn: #00a3ff;
+    --font-base: 'Cormorant Upright', serif;
+    --font-alt: 'Open Sans', sans-serif;
+    --light: #f3f4f5;
+    --lighter: #f7f8fa;
+}
+*{
+    font-family: Poppins, Arial
+}
+
+.TILT{
+    font-family:Tilt Prism ;
+}
+
+.root-layoute{
+    margin: 0;
+    padding: 0;
+}
+.home-header{
+    background-color: var(--secondary);
+}
+

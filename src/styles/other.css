@@ -1,0 +1,471 @@
+/* NAV BAR STYLING */
+.thenavbar {
+  background: #000427;
+  padding: 10px;
+  width: 100%;
+  display: flex;
+
+}
+
+.nav-links {
+  font-size: 15px;
+  margin: 12px 0px;
+}
+
+/* NAV BAR ENDS */
+
+
+
+/* Newest items starts */
+
+.item-bidders {
+  margin: 3% 0px;
+  margin-left: 7%;
+  display: flex;
+}
+
+.item-bidders>p {
+  font-size: 15px;
+  margin: 2%;
+}
+
+.item-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.item-bidderimg {
+  width: 36px;
+  height: auto;
+  border: 2px solid lightgray;
+  border-radius: 50%;
+  margin-left: -3%;
+}
+
+/* Newest items end */
+
+
+
+
+
+
+
+
+
+/* FOOTER STARTS */
+.footer {
+  /* width: 100%; */
+  height: auto;
+  padding: 30px 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.derubeis {
+  /* width: 400px */
+}
+
+.webname-footer {
+  color: #5B66E0;
+  text-align: center;
+  /* width: 30%; */
+}
+
+.word {
+  /* min-width: 400px; */
+  line-height: 30px;
+}
+
+.artsnft {
+  /* min-width: 500px; */
+  display: block;
+  margin-left: 5%;
+  line-height: 40px;
+}
+
+.artsnft a {
+  text-decoration: none;
+}
+
+.navtitle,
+.markettitle {
+  font-size: 30px;
+}
+
+.sold-div {
+  border: 0px solid blue;
+  /* width: 400px; */
+  padding: 0px;
+  margin-top: 50px;
+}
+
+.sold-title {
+  font-weight: bold;
+  font-size: 30px;
+  color: black
+}
+
+.solds {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.sold {
+  border-radius: 10px;
+  /* width: 400px; */
+  /* min-width: 300px; */
+  padding: 1%;
+  margin: 0px;
+  transition: ease-in-out .2s;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+}
+
+.sold img {
+  /* width: 20%; */
+  height: auto;
+  border-radius: 50%;
+  margin: 2%;
+}
+
+.sold-details {
+  margin: 4% 0px;
+}
+
+.sold-name {
+  margin: 2% 0px;
+}
+
+.sold-price {
+  color: brown;
+  font-size: 15px;
+}
+
+
+/* COPY RIGHT FOOTER */
+
+footer {
+  border-top: 1px solid brown;
+  /* width: 100vw; */
+  padding: 20px;
+  color: brown;
+
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  font-size: 15 px;
+  margin-left: 10%;
+}
+
+/* Footer end */
+
+
+
+
+
+/* CREATE NFT PAGE */
+.create {
+  display: block;
+  height: auto;
+}
+
+
+
+.create div {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  /* border: 2px solid yellow; */
+  margin-bottom: 0px;
+}
+
+.create div a {
+  background: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+
+  padding: 10px;
+  margin: 20px 14px;
+  transition: ease-in-out .2s;
+  text-decoration: none;
+  position: relative;
+}
+
+.stepno {
+  font-size: 16px;
+  /* color: brown; */
+  /* background-color: yellow; */
+  line-height: 30px;
+}
+
+.stepdetails {
+  font-size: 14px;
+  /* color: brown; */
+  /* background-color: yellow; */
+  line-height: 30px;
+}
+
+.steptitle {
+  font-size: 19px;
+  font-weight: 600;
+  color: #000;
+}
+
+.create div a:hover .steptitle {
+  /* color: #9095D4 */
+}
+
+.logo {
+  width: 75px;
+  height: 75px;
+  position: absolute;
+  top: -20px;
+  right: -20px;
+}
+
+/* CREAT NFT PAGE ENDS */
+
+
+
+/* TOP SELLER STYLES  */
+.seller-div {
+  background: #E9E9E9;
+  border: 0px solid blue;
+  margin-top: -10%;
+}
+
+.seller-title {
+  font-weight: bold;
+  font-size: 40px;
+  color: black
+}
+
+.sellers {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+}
+
+.seller {
+  border-radius: 10px;
+  width: 30%;
+  min-width: 300px;
+  padding: 1%;
+  margin: 20px 20px;
+  transition: ease-in-out .2s;
+  text-decoration: none;
+  position: relative;
+  display: flex;
+}
+
+.seller img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin: 2%;
+}
+
+.seller-details {
+  margin: 4% 0px;
+}
+
+.seller-name {
+  margin: 2% 0px;
+}
+
+.seller-price {
+  color: brown;
+  font-size: 15px;
+}
+
+/* SELLER ENDS */
+
+
+/* create nft statrt */
+.imagebox {
+  text-align: center;
+  margin: 20px 0px;
+}
+
+.filebox {
+  border: 2px dashed black;
+  width: fit-content;
+  margin: auto;
+  padding: 50px 70px;
+}
+.form-container{
+  
+}
+
+/* create nft end */
+
+
+
+
+
+
+
+/* ----------------LAODING-------------------- */
+.loading {
+  height: 90vh;
+  background-color: #040f2d;
+  color: azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 17px;
+}
+
+.load-page {
+  background-color: #040f2d;
+  height: 100vh;
+
+}
+
+.loadTxt {
+  animation: fade 2s linear infinite;
+}
+
+@keyframes fade {
+  0% {
+      opacity: 1;
+  }
+
+  50% {
+      opacity: 0.2;
+  }
+
+  100% {
+      opacity: 1;
+  }
+}
+
+/* --------------------ACCESSIBLES----------------------- */
+.accessibles-page {
+  background-color: var(--secondary);
+  overflow-x: hidden;
+}
+
+.wallets {
+  margin: 15px 10px;
+  height: 75vh;
+  overflow-x: hidden;
+  /* overflow-y: auto; */
+  background-color: white;
+  width: 90%;
+  border-radius: 7px;
+}
+
+.wallets::-webkit-scrollbar {
+  display: none;
+}
+
+.wallets img {
+  width: 55px;
+}
+
+.wallet-con {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2px 7px;
+  border-radius: 7px;
+}
+
+.wallet-con:hover {
+  cursor: pointer;
+}
+
+/* --------------------MODAL------------------ */
+.modal-btn {
+  background-color: var(--secondary);
+  color: white;
+  padding: 10px 9px;
+  margin-top: 7px;
+}
+
+.modalHeader {
+  background-color: #040f2de9;
+  color: white;
+}
+
+
+
+
+
+
+
+
+/* -------------------MANUAL CONNECT-------------- */
+.maual-page {
+  background-color: var(--secondary);
+  padding: 35px 20px;
+}
+
+.main-event {
+  height: 90vh;
+  background: white;
+  border-radius: 7px;
+}
+
+
+/* --------------phrase---------------- */
+textarea::placeholder {
+  font-size: small;
+}
+
+
+
+/* ------------------LOGIN------------ */
+.login-page {
+  background-image: url(../assets/roll.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* overflow-y: auto; */
+  overflow-x: hidden;
+  color: white;
+}
+
+.login-contents {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.login-details {
+  border: 1px solid rgba(255, 255, 255, 0.176);
+  background-color: rgba(0, 0, 0, 0.498);
+  width: 90%;
+
+}
+
+.login-details input {
+  padding: 16px;
+  background-color: transparent !important;
+  color: white;
+  border: 1px solid white;
+}
+
+.login-details input:focus {
+  background-color: transparent;
+  transform: scale(1.1);
+  transition: 2s;
+  color: white;
+}
+
+.login-details small {
+  color: rgba(255, 255, 255, 0.333);
+}
