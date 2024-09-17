@@ -12,7 +12,7 @@ import CreateIndex from './pages/createNFT/createIndex';
 import AuthIndex from './pages/auth/authIndex';
 import AllNfts from './pages/allNfts';
 import SingleNft from './pages/singleNft';
-import MyNFTs from './pages/myNFTS/myNFTsIndex';
+import MyNFTs from './pages/myNFTs/myNFTs';
 // import ErrorPage from './pages/ErrorPage'
 
 
