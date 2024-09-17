@@ -8,11 +8,11 @@ import RootLayout from './layouts/RootLayout'
 import Home from './pages/home/homeIndex';
 import Chat from './pages/chat/chatIndex';
 import Withdrawal from './pages/withdrawal/withdrawalIndex';
-import MyNFTs from './pages/myNFTS/myNFTsIndex';
 import CreateIndex from './pages/createNFT/createIndex';
 import AuthIndex from './pages/auth/authIndex';
 import AllNfts from './pages/allNfts';
 import SingleNft from './pages/singleNft';
+import MyNFTs from './pages/myNFTS/myNFTsIndex';
 // import ErrorPage from './pages/ErrorPage'
 
 
